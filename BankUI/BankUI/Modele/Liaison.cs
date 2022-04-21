@@ -8,8 +8,6 @@ namespace BankUI.Modele
 {
     public class Liaison
     {
-        //Création de l'entité liaison
-
         private int _idLiaison;
         private TimeSpan _duree;
         private string _nomPortDepart;
@@ -42,18 +40,19 @@ namespace BankUI.Modele
         public string NomPortDepart
         {
             get { return _nomPortDepart; }
-            set { _nomPortDepart = value;}
+            set { _nomPortDepart = value; }
         }
-
 
         public string NomPortArrivee
         {
-            get { return _nomPortArrivee;}
-            set { _nomPortArrivee = value;}
+            get { return _nomPortArrivee; }
+            set { _nomPortArrivee = value; }
         }
+
 
         public virtual string Description
         {
+
             get
             {
                 return ("Liaison n° " + this._idLiaison + " // Port de Depart : " + this._nomPortDepart

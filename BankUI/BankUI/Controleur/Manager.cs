@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace BankUI.Controleur
 {
@@ -18,7 +19,6 @@ namespace BankUI.Controleur
         public List<Liaison> chargementLBD()
         {
             return (ld.getLiaison());
-
         }
 
         //Chargement de la liste des tarifs liés à une liaison
