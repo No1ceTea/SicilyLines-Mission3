@@ -39,19 +39,20 @@ namespace BankUI.Modele
             set { _duree = value; }
         }
 
-        public string nomPortDepart
+        public string NomPortDepart
         {
             get { return _nomPortDepart; }
             set { _nomPortDepart = value;}
         }
 
-        public string nomPortArrivee
+
+        public string NomPortArrivee
         {
             get { return _nomPortArrivee;}
             set { _nomPortArrivee = value;}
         }
 
-        public virtual string Desription
+        public virtual string Description
         {
             get
             {
