@@ -46,7 +46,6 @@ namespace BankUI.Vue {
         {
 
             LBLiaison.DataSource = null;
-            // lBox.DataSource = lstcpt.Values.ToList();
             LBLiaison.DataSource = listLiaison;
             LBLiaison.DisplayMember = "Description";
             LBLiaison.SetSelected(index, true);
@@ -225,5 +224,9 @@ namespace BankUI.Vue {
 
         }
 
+        private void LBLiaison_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

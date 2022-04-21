@@ -13,11 +13,10 @@ namespace BankUI.DAL
     public class TariferDao
     {
         private ConnexionSql maConnexionSql;
+
         private MySqlCommand Ocom;
 
-
-
-        //Retourne les tarifs d'une liaison
+        //Retourne les tarifs des liaisons
         public List<Tarifer> getTarif(int unIdLiaison)
         {
             List<Tarifer> l_tarifer = new List<Tarifer>();

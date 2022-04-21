@@ -41,7 +41,6 @@ namespace BankUI.Vue
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.BTNAjout = new System.Windows.Forms.Button();
-            this.LBLiaison = new System.Windows.Forms.ListBox();
             this.ComptesUsersLabel = new System.Windows.Forms.Label();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
@@ -57,6 +56,7 @@ namespace BankUI.Vue
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.LBLiaison = new System.Windows.Forms.ListBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,7 @@ namespace BankUI.Vue
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(60)))), ((int)(((byte)(117)))));
+            this.guna2Panel1.Controls.Add(this.LBLiaison);
             this.guna2Panel1.Controls.Add(this.CBportA);
             this.guna2Panel1.Controls.Add(this.CBportD);
             this.guna2Panel1.Controls.Add(this.BTNAffichTarif);
@@ -74,7 +75,6 @@ namespace BankUI.Vue
             this.guna2Panel1.Controls.Add(this.label4);
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.BTNAjout);
-            this.guna2Panel1.Controls.Add(this.LBLiaison);
             this.guna2Panel1.Controls.Add(this.ComptesUsersLabel);
             this.guna2Panel1.Controls.Add(this.guna2Panel3);
             this.guna2Panel1.Controls.Add(this.guna2Panel2);
@@ -176,14 +176,6 @@ namespace BankUI.Vue
             this.BTNAjout.Text = "Ajouter";
             this.BTNAjout.UseVisualStyleBackColor = true;
             this.BTNAjout.Click += new System.EventHandler(this.BTNAjout_Click);
-            // 
-            // LBLiaison
-            // 
-            this.LBLiaison.FormattingEnabled = true;
-            this.LBLiaison.Location = new System.Drawing.Point(30, 115);
-            this.LBLiaison.Name = "LBLiaison";
-            this.LBLiaison.Size = new System.Drawing.Size(861, 147);
-            this.LBLiaison.TabIndex = 5;
             // 
             // ComptesUsersLabel
             // 
@@ -376,6 +368,14 @@ namespace BankUI.Vue
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // LBLiaison
+            // 
+            this.LBLiaison.FormattingEnabled = true;
+            this.LBLiaison.Location = new System.Drawing.Point(30, 113);
+            this.LBLiaison.Name = "LBLiaison";
+            this.LBLiaison.Size = new System.Drawing.Size(729, 160);
+            this.LBLiaison.TabIndex = 3;
+            // 
             // Liaison
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -414,7 +414,6 @@ namespace BankUI.Vue
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private System.Windows.Forms.Label ComptesUsersLabel;
-        private System.Windows.Forms.ListBox LBLiaison;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label CheckedUser;
         private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator3;
@@ -429,6 +428,7 @@ namespace BankUI.Vue
         private System.Windows.Forms.Button BTNAffichTarif;
         private System.Windows.Forms.ComboBox CBportA;
         private System.Windows.Forms.ComboBox CBportD;
+        private System.Windows.Forms.ListBox LBLiaison;
     }
 }
 
