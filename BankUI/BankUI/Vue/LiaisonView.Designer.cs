@@ -2,7 +2,7 @@
 
 namespace BankUI.Vue
 {
-    partial class Liaison
+    partial class LiaisonView
     {
         /// <summary>
         /// Required designer variable.
@@ -31,6 +31,7 @@ namespace BankUI.Vue
         private void InitializeComponent()
         {
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.LBLiaison = new System.Windows.Forms.ListBox();
             this.CBportA = new System.Windows.Forms.ComboBox();
             this.CBportD = new System.Windows.Forms.ComboBox();
             this.BTNAffichTarif = new System.Windows.Forms.Button();
@@ -56,7 +57,6 @@ namespace BankUI.Vue
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.LBLiaison = new System.Windows.Forms.ListBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
@@ -83,6 +83,14 @@ namespace BankUI.Vue
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(920, 620);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // LBLiaison
+            // 
+            this.LBLiaison.FormattingEnabled = true;
+            this.LBLiaison.Location = new System.Drawing.Point(30, 113);
+            this.LBLiaison.Name = "LBLiaison";
+            this.LBLiaison.Size = new System.Drawing.Size(729, 160);
+            this.LBLiaison.TabIndex = 3;
             // 
             // CBportA
             // 
@@ -367,14 +375,6 @@ namespace BankUI.Vue
             this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
             this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // LBLiaison
-            // 
-            this.LBLiaison.FormattingEnabled = true;
-            this.LBLiaison.Location = new System.Drawing.Point(30, 113);
-            this.LBLiaison.Name = "LBLiaison";
-            this.LBLiaison.Size = new System.Drawing.Size(729, 160);
-            this.LBLiaison.TabIndex = 3;
             // 
             // Liaison
             // 

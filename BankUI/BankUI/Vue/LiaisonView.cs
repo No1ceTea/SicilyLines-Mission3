@@ -15,7 +15,7 @@ using System.Windows.Forms;
 
 namespace BankUI.Vue {
 
-    public partial class Liaison : Form
+    public partial class LiaisonView : Form
     {
 
         private ConnexionSql maConnexionSql;
@@ -24,9 +24,9 @@ namespace BankUI.Vue {
 
         Manager monManager;
 
-        public List<Liaison> listLiaison = new List<Liaison>();
+        public List<LiaisonView> listLiaison = new List<LiaisonView>();
 
-        public Liaison()
+        public LiaisonView()
         {
             InitializeComponent();
             monManager = new Manager();
@@ -56,7 +56,6 @@ namespace BankUI.Vue {
         {
 
             LBLiaison.DataSource = null;
-            // lBox.DataSource = lstcpt.Values.ToList();
             LBLiaison.DataSource = listLiaison;
             LBLiaison.DisplayMember = "Description";
             monManager.chargementLBD();
@@ -113,7 +112,7 @@ namespace BankUI.Vue {
             int i;
             i = LBLiaison.SelectedIndex;
 
-            Liaison liaison = listLiaison[i];
+            LiaisonView liaison = listLiaison[i];
 
             ModifLiaisonView modifLiaisonView = new ModifLiaisonView(liaison);
 
@@ -132,7 +131,7 @@ namespace BankUI.Vue {
             int i;
             i = LBLiaison.SelectedIndex;
 
-            Liaison liaison = listLiaison[i];
+            LiaisonView liaison = listLiaison[i];
 
             monManager.deleteLiaison(liaison);
 
