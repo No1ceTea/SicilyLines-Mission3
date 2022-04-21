@@ -62,11 +62,10 @@ namespace BankUI.Vue {
 
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void guna2Button2_Click_1(object sender, EventArgs e)
         {
             if (MessageBox.Show(" Confirmer et sauvegarder les modifications", "Exit", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                Serialise.sauvegarde(lstcpt);
                 Application.Exit();
             }
         }
@@ -223,9 +222,6 @@ namespace BankUI.Vue {
 
         }
 
-        private void LBLiaison_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+       
     }
 }
