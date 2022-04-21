@@ -24,7 +24,7 @@ namespace BankUI.Vue {
 
         Manager monManager;
 
-        public List<LiaisonView> listLiaison = new List<LiaisonView>();
+        public List<Liaison> listLiaison = new List<Liaison>();
 
         public LiaisonView()
         {

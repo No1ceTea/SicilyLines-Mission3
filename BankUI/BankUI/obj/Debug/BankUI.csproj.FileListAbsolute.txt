@@ -207,3 +207,4 @@ C:\Users\thaiw\Desktop\SicilyLines-Mission3\BankUI\BankUI\obj\Debug\BankUI.exe
 C:\Users\thaiw\Desktop\SicilyLines-Mission3\BankUI\BankUI\obj\Debug\BankUI.pdb
 C:\Users\thaiw\Desktop\SicilyLines-Mission3\BankUI\BankUI\obj\Debug\BankUI.Vue.Liaison.resources
 C:\Users\thaiw\Desktop\SicilyLines-Mission3\BankUI\BankUI\obj\Debug\BankUI.Vue.ModifLiaisonView.resources
+C:\Users\thaiw\Desktop\SicilyLines-Mission3\BankUI\BankUI\obj\Debug\BankUI.Vue.LiaisonView.resources
