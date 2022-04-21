@@ -112,7 +112,7 @@ namespace BankUI.Vue {
             int i;
             i = LBLiaison.SelectedIndex;
 
-            LiaisonView liaison = listLiaison[i];
+            Liaison liaison = listLiaison[i];
 
             ModifLiaisonView modifLiaisonView = new ModifLiaisonView(liaison);
 
@@ -131,7 +131,7 @@ namespace BankUI.Vue {
             int i;
             i = LBLiaison.SelectedIndex;
 
-            LiaisonView liaison = listLiaison[i];
+            Liaison liaison = listLiaison[i];
 
             monManager.deleteLiaison(liaison);
 
